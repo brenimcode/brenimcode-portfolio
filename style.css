@@ -778,5 +778,9 @@ span {
     .footer {
         min-width: 380px;
     }
+    .home-img img {
+        max-width: 115%;
+        height: auto;
+    }
     
 }
