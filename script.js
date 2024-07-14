@@ -24,3 +24,32 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+/*
+let lang = 'en'; // Defina o idioma inicial
+
+function switchLanguage() {
+    const elementsToTranslate = document.querySelectorAll('[data-lang]');
+    
+    elementsToTranslate.forEach(element => {
+        if (lang === 'en') {
+            if (element.dataset.langEn) {
+                element.innerText = element.dataset.langEn;
+            }
+        } else if (lang === 'pt') {
+            if (element.dataset.langPt) {
+                element.innerText = element.dataset.langPt;
+            }
+        }
+    });
+
+    // Alternar entre inglês e português
+    if (lang === 'en') {
+        lang = 'pt';
+        document.querySelector('.language-selector').innerText = 'Português';
+    } else {
+        lang = 'en';
+        document.querySelector('.language-selector').innerText = 'English';
+    }
+}
+*/

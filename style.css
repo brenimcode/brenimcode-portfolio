@@ -71,6 +71,22 @@ body {
     border-bottom: 3px solid var(--main-color);
 }
 
+.language-selector {
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.language-selector a {
+    color: var(--text-color);
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.language-selector a:hover {
+    color: var(--main-color);
+}
+
 #menu-icon {
     font-size: 3.6rem;
     color: var(--main-color);
@@ -253,17 +269,17 @@ span {
 
     41%,
     60% {
-        content: "Computer Science Student";
+        content: "Federal Student";
     }
 
     61%,
     80% {
-        content: "Web Developer";
+        content: "Programmer";
     }
 
     81%,
     100% {
-        content: "Software Engineer";
+        content: "";
     }
 }
 

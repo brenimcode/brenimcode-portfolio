@@ -14,31 +14,33 @@
 
 <body>
     <header class="header">
-        <a href="#home" class="logo">BRENIM<span>CODE</span>
-        </a>
-
+        <a href="#home" class="logo">BRENIM<span>CODE</span></a>
+    
         <i class='bx bx-menu' id="menu-icon"></i>
-
+    
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#education">Education</a>
-            <a href="#services">Services</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" class="active" data-lang data-lang-en="Home" data-lang-pt="Início">Início</a>
+            <a href="#education" data-lang data-lang-en="Education" data-lang-pt="Educação">Educação</a>
+            <a href="#services" data-lang data-lang-en="Services" data-lang-pt="Serviços">Serviços</a>
+            <a href="#testimonials" data-lang data-lang-en="Testimonials" data-lang-pt="Depoimentos">Depoimentos</a>
+            <a href="#contact" data-lang data-lang-en="Contact" data-lang-pt="Contato">Contato</a>
+        
+            <!-- <a href="#" class="language-selector" onclick="switchLanguage()">English</a> -->
+        
         </nav>
-
     </header>
+    
 
     <section class="home" id="home">
         <div class="home-content">
             <h1>Hi, It's <span>Breno</span></h1>
             <h3 class="text-animation">I'm a <span></span>
             </h3>
-            <p>
-                Hello, I'm Breno, a dedicated Computer Science student with good front-end and back-end development skills. I am passionate about creating efficient, scalable, and user-friendly applications. With a solid foundation in
-                 advanced computer science algorithms and a focus on competitive programming, 
-                I am committed to delivering innovative and reliable solutions.
-            </p>
+            <p>Olá, sou Breno, estudante de Ciência da Computação com habilidades sólidas em desenvolvimento web, 
+                tanto front-end quanto back-end. Tenho gosto por criar aplicações eficientes, escaláveis e que ofereçam 
+                uma ótima experiência ao usuário. Com uma base sólida em algoritmos e uma dedicação especial à 
+                programação competitiva, meu compromisso é fornecer soluções inovadoras e confiáveis, ideais tanto para 
+                projetos de desenvolvimento web quanto para trabalhos freelancers.</p>
 
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/breno-cavalcante/"><i class='bx bxl-linkedin'></i> </a>
@@ -49,8 +51,8 @@
             </div>
 
             <div class="btn-group">
-                <a href="https://www.linkedin.com/in/breno-cavalcante/" class="btn">Hire</a>
-                <a href="mailto:brennoAFK@hotmail.com" class="btn">Contact</a>
+                <a href="https://www.linkedin.com/in/breno-cavalcante/" class="btn">Contrate</a>
+                <a href="mailto:brennoAFK@hotmail.com" class="btn">Contato</a>
             </div>
         </div>
         <div class="home-img">
@@ -61,7 +63,7 @@
     </section>
 
     <section class="education" id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading">Educação</h2>
 
         <div class="timeline-items">
 
@@ -70,36 +72,50 @@
                 <div class="timeline-date">2023</div>
                 <div class="timeline-content">
                     <h3>HTML/CSS/JS</h3>
-                    <p>I began my programming journey by studying HTML, CSS, and JavaScript, where I acquired foundational skills in web development.</p>
+                    <p>Iniciei minha jornada de programação estudando HTML, CSS e JavaScript, onde adquiri
+                        habilidades fundamentais em desenvolvimento web.</p>
                 </div>
             </div>
-        
+
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2023</div>
                 <div class="timeline-content">
-                    <h3>Bachelor's Degree in Computer Science</h3>
-                    <p>I enrolled at the Federal University of Uberlândia, pursuing a degree in Computer Science, where I am continuously expanding my knowledge and skills.</p>
+                    <h3>Bacharelado em Ciência da Computação</h3>
+                    <p>Matriculei-me na Universidade Federal de Uberlândia, cursando Ciência da Computação, onde
+                        continuo expandindo meus conhecimentos e habilidades.</p>
                 </div>
             </div>
-        
+
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2023</div>
                 <div class="timeline-content">
-                    <h3>Competitive Programming</h3>
-                    <p>I started delving into competitive programming, enhancing my problem-solving abilities and algorithmic thinking.</p>
+                    <h3>Programação Competitiva</h3>
+                    <p>Comecei a me aprofundar na programação competitiva, aprimorando minhas habilidades de
+                        resolução de problemas e pensamento algorítmico.</p>
                 </div>
             </div>
-        
+
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                 <div class="timeline-date">2024</div>
                 <div class="timeline-content">
                     <h3>Java/Spring Boot/SQL</h3>
-                    <p>I began studying Java, Spring Boot, and SQL, focusing on backend development and database management.</p>
+                    <p>Comecei a estudar Java, Spring Boot e SQL, focando no desenvolvimento back-end e gerenciamento de
+                        banco de dados.</p>
                 </div>
             </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Iniciei um estudo intensivo em desenvolvimento web, especializando-me na criação de websites,
+                        design de páginas de destino impactantes e dominando tanto tecnologias front-end quanto
+                        back-end. Meu foco tem sido fornecer soluções polidas e amigáveis ao usuário que integram
+                        design e funcionalidade perfeitos.</p>
+                </div>
             </div>
 
         </div>
@@ -107,152 +123,157 @@
     </section>
 
     <section class="services" id="services">
-        <h2 class="heading">Services</h2>
-    
+        <h2 class="heading">Serviços</h2>
+
         <div class="services-container">
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Back-End Developer</h4>
-                    <p>Specialized in building robust and scalable backend systems using Java,
-                         Spring Boot, MongoDB, SQL. Experience in developing and maintaining
-                          APIs, managing databases and ensuring efficient data flow in applications.
-                    </p>
+                    <h4>Desenvolvedor Back-End</h4>
+                    <p>Especializado na construção de sistemas de backend usando Java,
+                        SpringBoot, SQL, NOSQL. Experiência no desenvolvimento e manutenção de
+                        APIs, gerenciamento de bancos de dados e garantia de fluxo eficiente de dados em
+                        aplicações.</p>
                 </div>
             </div>
-            
+
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Competitive Programmer</h4>
-                    <p>Proven track record in competitive programming with strong algorithmic and problem-solving skills. Participated in several 
-                        programming competitions, developing teamwork and improving technical skills.</p>
+                    <h4>Instrutor em Programação</h4>
+                    <p>Experiência como instrutor em projetos de extensão universitária, 
+                        ensinando jovens a programar e preparando-os para competições de programação.
+                        Foco em desenvolver habilidades algorítmicas e de resolução de problemas.</p>
                 </div>
             </div>
-    
+
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Computer Science Student</h4>
-                    <p>Currently pursuing a degree in Computer Science at the Federal University of Uberlândia, with a focus on academic research and continuous skill development. Actively involved in projects that explore complex topics and foster innovation.</p>
+                    <h4>Desenvolvedor Web</h4>
+        <p>Especializado na criação de websites, desenvolvimento de landing pages impactantes e domínio das
+            tecnologias front-end e back-end. Foco em fornecer soluções amigáveis ao usuário que integram design e
+            funcionalidade de maneira ideal.</p>
                 </div>
             </div>
-    
+
             <div class="service-box">
                 <div class="service-info">
-                    <h4>Software Engineer</h4>
-                    <p>Skilled in both front-end and back-end technologies, with a strong foundation in computer science principles.</p>
+                    <h4>Consultoria em Tecnologia</h4>
+        <p>Consultoria especializada em tecnologia para empresas e startups, focando em identificar soluções eficientes, otimizar processos e melhorar integração de sistemas.
+             Estratégias inovadoras e sustentáveis para alcançar objetivos empresariais.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="testimonials" id="testimonials">
-        <div class="testimonials-box">
-            
-            <h2 class="heading">Testimonials</h2>
+    <div class="testimonials-box">
 
-            <div class="wrapper">
-                <div class="testimonial-item">
-                    <img src="1.jpg" alt="client1">
-                    <h2>Tio Zuck</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
+        <h2 data-lang data-lang-en="Testimonials" data-lang-pt="Depoimentos" class="heading">Depoimentos</h2>
 
-                    </div>
-                    <p>Breno's expertise in web development and back-end services is truly exceptional. He transformed our project with efficient coding and seamless integration, delivering beyond our expectations."</p>
+        <div class="wrapper">
+            <div class="testimonial-item">
+                <img src="1.jpg" alt="cliente1">
+                <h2>Marck</h2>
+                <div class="rating">
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+
                 </div>
-
-                <div class="testimonial-item">
-                    <img src="2.jpg" alt="client1">
-                    <h2>Helom Moske</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                    </div>
-                    <p>Working with Breno was a game-changer for our startup.
-                         His dedication to back-end development and problem-solving skills 
-                        ensured our platform's stability and scalability. Highly recommend!</p>
-                </div>
-
-                <div class="testimonial-item">
-                    <img src="1.jpg" alt="client1">
-                    <h2>Bill Gates</h2>
-                    <div class="rating">
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                        <i class='bx bxs-star' id="star" ></i>
-                    </div>
-                    <p>Breno is a skilled web developer with a deep understanding of back-end systems. 
-                        His attention to detail and 
-                        commitment to delivering high-quality results make him a valuable asset to any project.</p>
-                </div>
-
+                <p>A experiência de Breno em desenvolvimento web e serviços de back-end é realmente excepcional.
+                     Ele transformou nosso projeto com programação eficiente e integração perfeita, entregando além das nossas 
+                     expectativas.</p>
             </div>
 
+            <div class="testimonial-item">
+                <img src="2.jpg" alt="cliente2">
+                <h2>Ellon</h2>
+                <div class="rating">
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                </div>
+                <p>Breno é um desenvolvedor excepcional, conhecido por sua criatividade e habilidade na resolução de problemas.
+                    Seu talento em criar soluções inovadoras e eficientes é 
+                    impressionante, tornando-o uma escolha ideal desenvolvimento web</p>
+            </div>
+
+            <div class="testimonial-item">
+                <img src="1.jpg" alt="cliente3">
+                <h2>Bill</h2>
+                <div class="rating">
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                    <i class='bx bxs-star' id="star"></i>
+                </div>
+                <p>Breno é um desenvolvedor habilidoso com entendimento de back-end, front-end. 
+                    Sua atenção aos detalhes e compromisso com a entrega
+                     de resultados de alta qualidade o tornam um recurso valioso.</p>
+            </div>
 
         </div>
 
-    </section>
 
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-    
-        <form name="contact" method="POST" data-netlify="true">
-            <div class="input-group">
-                <div class="input-box">
-                    <input type="text" name="name" placeholder="Full name" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
-    
-                <div class="input-box">
-                    <input type="tel" name="phone" placeholder="Phone Number">
-                    <input type="text" name="subject" placeholder="Subject">
-                </div>
-            </div>
-            
-            <div class="input-group-2">
-                <textarea name="message" cols="30" rows="10" placeholder="Your message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </div>
-        </form>
-    </section>
-    
+    </div>
 
-    <footer class="footer">
-        <div class="social">
-            <a href="https://www.linkedin.com/in/breno-cavalcante/"><i class='bx bxl-linkedin'></i> </a>
-                <a href="https://github.com/brenimcode"><i class='bx bxl-github'></i></a>
-                <a href="https://www.instagram.com/brenno.oliver/"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="mailto:brennoAFK@hotmail.com"><i class='bx bxs-envelope'></i></a>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contate-me</h2>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Nome completo" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Número de telefone">
+                <input type="text" name="subject" placeholder="Assunto">
+            </div>
         </div>
-        <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#">About me</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Testimonials</a>
-            </li>
-        </ul>
-        <p class="copyright">
-            © <a href="https://github.com/brenimcode">Brenimcode</a> | All Rights Reserved
-        </p>
-    </footer>
+
+        <div class="input-group-2">
+            <textarea name="message" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+            <input type="submit" value="Enviar Mensagem" class="btn">
+        </div>
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="social">
+        <a href="https://www.linkedin.com/in/breno-cavalcante/"><i class='bx bxl-linkedin'></i> </a>
+        <a href="https://github.com/brenimcode"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/brenno.oliver/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="mailto:brennoAFK@hotmail.com"><i class='bx bxs-envelope'></i></a>
+    </div>
+    <ul class="list">
+        <li>
+            <a href="#home">FAQ</a>
+        </li>
+        <li>
+            <a href="#services">Serviços</a>
+        </li>
+        <li>
+            <a href="#home">Sobre mim</a>
+        </li>
+        <li>
+            <a href="#home">Contato</a>
+        </li>
+        <li>
+            <a href="#testimonials">Depoimentos</a>
+        </li>
+    </ul>
+    <p class="copyright">
+        © <a href="https://github.com/brenimcode">Brenimcode</a> | Todos os direitos reservados
+    </p>
+</footer>
 
     <script src="script.js"></script>
 </body>
