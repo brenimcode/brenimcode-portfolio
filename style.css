@@ -13,7 +13,8 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: #00ffee;
+    /*--main-color: #00ffee;*/
+    --main-color: #39FF14;
 }
 
 html {
@@ -779,7 +780,7 @@ span {
         min-width: 380px;
     }
     .home-img img {
-        max-width: 115%;
+        max-width: 100%;
         height: auto;
     }
     
