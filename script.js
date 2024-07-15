@@ -52,4 +52,5 @@ function switchLanguage() {
         document.querySelector('.language-selector').innerText = 'English';
     }
 }
+
 */
