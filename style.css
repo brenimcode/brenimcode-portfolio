@@ -223,6 +223,24 @@ span {
     color: black;
 }
 
+/* Animação de crescimento e redução para a classe .animacao */
+.btn.animacao {
+    animation: growShrink 1s ease-in-out infinite; /* Adicionando animação contínua */
+}
+
+/* Animação de crescimento e redução */
+@keyframes growShrink {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 .text-animation {
     font-size: 34px;
     font-weight: 600;
