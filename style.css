@@ -459,16 +459,26 @@ span {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
+    justify-content: center; /* Centraliza as colunas */
+    align-content: center; /* Centraliza as linhas */
 }
+
 
 .service-box {
     background-color: var(--main-color);
-    height: 300px;
+    height: 250px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
+.services-container .service-box:last-child {
+    grid-column: 1 / -1; /* O item ocupa a largura completa da grid */
+    height: 180px;
+}
+
+
+
 
 .service-box:hover {
     background-color: white;
@@ -824,7 +834,13 @@ span {
 /* Portfolio/ work */
 .work-section {
     background-color: var(--second-bg-color);
-    padding: 2rem 0;
+    color: black;
+}
+
+.work-section h2 {
+    margin-bottom: 5rem;
+    color: white;
+    gap: 2.5rem;
 }
 
 .work-container {
