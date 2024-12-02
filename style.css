@@ -945,7 +945,7 @@ span {
 
 .skill-box {
     padding: 1rem;
-    color: #ddd;
+    color: #ededed;
     cursor: pointer;
 }
 
@@ -998,7 +998,7 @@ span {
     height: 90px;
     position: relative;
     border-radius: 45px;
-    background-color: #fff;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1007,7 +1007,7 @@ span {
 
 
 .skill-title h3 {
-    color: #fff;
+    color: #ffffff;
     margin-top: 0.5rem;
 
 }
