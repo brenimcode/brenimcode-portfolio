@@ -188,10 +188,10 @@ span {
 
 .btn {
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1rem 2rem;
     background: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
-    border-radius: 4rem;
+    border-radius: 3rem;
     font-size: 1.6rem;
     color: white;
     border: 2px solid transparent;
@@ -209,7 +209,7 @@ span {
 .btn-group {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .btn-group a:nth-of-type(2) {
@@ -254,7 +254,7 @@ span {
 }
 
 .text-animation span::before {
-    content: "Web Developer";
+    content: "Software Developer";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -272,7 +272,7 @@ span {
 
 @keyframes cursor {
     to {
-        border-left: 2px solid var(--main-color);
+        border-left: 1px solid var(--main-color);
     }
 }
 
@@ -285,17 +285,17 @@ span {
 
     21%,
     40% {
-        content: "Competitive Programmer";
+        content: "AI Agents Developer";
     }
 
     41%,
     60% {
-        content: "Back-end Developer";
+        content: "Automation Developer";
     }
 
     61%,
     80% {
-        content: "Software Developer";
+        content: "LLM Engineer";
     }
 
     81%,
@@ -750,6 +750,10 @@ span {
 50 linhas
 */
 @media(max-width:895px){
+    .home {
+        gap: 3rem;
+    }
+
     #menu-icon{
         display: block;
     }
@@ -784,7 +788,7 @@ span {
     }
 
     .home-content h1{
-        font-size: 8rem;
+        font-size: 6rem;
         margin-top: 3rem;
     }
 
@@ -808,6 +812,7 @@ span {
 }
 
 @media (max-width: 525px) {
+
     .service-box {
         min-width: 310px;
         min-height: 390px;
@@ -920,6 +925,9 @@ span {
 }
 
 @media (max-width: 768px) {
+    .text-animation span::after{
+        height: 90%;
+    }
     .work__card {
         flex: 1 1 100%;
         max-width: 100%;
