@@ -862,20 +862,23 @@ span {
     gap: 1rem;
     padding: 0 1rem; /* Adiciona espaçamento nas bordas */
 }
-
 .work__card {
     background-color: var(--bg-color);
-    flex: 1 1 calc(33.33% - 2rem); /* Reduzido para acomodar o padding */
-    max-width: calc(33.33% - 2rem); /* Reduzido para acomodar o padding */
+    flex: 1 1 calc(33.33% - 2rem);
+    max-width: calc(33.33% - 2rem);
     box-sizing: border-box;
     border-radius: 1.5rem;
     overflow: hidden;
-    transition: transform 0.4s ease-in-out;
-    padding: 1rem; /* Adiciona padding interno */
+    padding: 1rem;
+    border: 2px solid transparent;
+    transition: background-color 0.35s ease, transform 0.35s ease, box-shadow 0.35s ease;
 }
 
 .work__card:hover {
-    transform: scale(1.03);
+    transform: scale(1.015);
+    background-color: #0e0e0e;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-color: rgba(3, 3, 239, 0.09);
 }
 
 .work-img {
