@@ -970,6 +970,7 @@ span {
 
 .skill-box:hover .img{
     transform: translateY(-10px);
+    
 }
 
 .skill-title{ 
@@ -1009,7 +1010,8 @@ span {
     height: 90px;
     position: relative;
     border-radius: 45px;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 20px rgba(3, 36, 252, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
