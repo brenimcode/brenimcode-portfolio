@@ -1011,7 +1011,7 @@ span {
     position: relative;
     border-radius: 45px;
     background-color: #f7f7f7;
-    box-shadow: 0 0 20px rgba(3, 36, 252, 0.7);
+    box-shadow: 0 0 15px rgba(40, 65, 224, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
