@@ -901,6 +901,8 @@ span {
 .description {
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
+    color: #dddddd;
+    line-height: 1.5;
 }
 
 .work__link i {
@@ -959,6 +961,7 @@ span {
 
 .skill-box p{
     text-align: center;
+    color: #eaeaea
 }
 
 .skill-box:hover > .skill-title:after, .skill-box:hover > .skill-title:before {
