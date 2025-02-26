@@ -839,8 +839,10 @@ span {
         min-width: 380px;
     }
     .home-img img {
-        max-width: 100%;
+        max-width: 75%;
         height: auto;
+        display: block; /* Transforma a imagem em elemento de bloco */
+        margin: 0 auto; /* Centraliza horizontalmente */
     }
     .home {
         padding-top:25px;
