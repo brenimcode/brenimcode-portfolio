@@ -809,6 +809,12 @@ span {
     .home {
         padding-top:45px;
     }
+    .home-img img {
+        max-width: 85%;
+        height: auto;
+        display: block; /* Transforma a imagem em elemento de bloco */
+        margin: 0 auto; /* Centraliza horizontalmente */
+    }
 
 
 }
