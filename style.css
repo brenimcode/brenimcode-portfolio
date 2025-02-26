@@ -126,11 +126,11 @@ span {
 .home-content h3 {
     margin-bottom: 2rem;
     margin-top: 1rem;
-    font-size: 3.5rem;
+    font-size: 3.15rem;
 }
 
 .home-content h1 {
-    font-size: 7rem;
+    font-size: 6.5rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
@@ -158,7 +158,7 @@ span {
 
 .home-content p {
     margin-top: 10px;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 10000px;
@@ -807,7 +807,7 @@ span {
         grid-template-columns: repeat(1,1fr);
     }    
     .home {
-        padding-top:25px;
+        padding-top:45px;
     }
 
 
@@ -842,10 +842,10 @@ span {
         max-width: 100%;
         height: auto;
     }
-
     .home {
-        padding-top:5px;
+        padding-top:25px;
     }
+
     
 }
 
