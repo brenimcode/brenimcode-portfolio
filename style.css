@@ -807,7 +807,7 @@ span {
         grid-template-columns: repeat(1,1fr);
     }    
     .home {
-        padding-top:55px;
+        padding-top:25px;
     }
 
 
@@ -844,7 +844,7 @@ span {
     }
 
     .home {
-        padding-top:35px;
+        padding-top:5px;
     }
     
 }
