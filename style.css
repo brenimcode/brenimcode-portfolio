@@ -295,7 +295,7 @@ span {
 
     61%,
     80% {
-        content: "LLM Engineer";
+        content: "Student at UFU";
     }
 
     81%,
@@ -751,7 +751,7 @@ span {
 */
 @media(max-width:895px){
     .home {
-        gap: 3rem;
+        gap: 1rem;
     }
 
     #menu-icon{
@@ -931,7 +931,7 @@ span {
 
 @media (max-width: 768px) {
     .text-animation span::after{
-        height: 90%;
+        height: 95%;
     }
     .work__card {
         flex: 1 1 100%;
