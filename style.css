@@ -806,6 +806,9 @@ span {
     .services-container{
         grid-template-columns: repeat(1,1fr);
     }    
+    .home {
+        padding-top:55px;
+    }
 
 
 }
@@ -841,7 +844,7 @@ span {
     }
 
     .home {
-        padding-top:65px;
+        padding-top:35px;
     }
     
 }
