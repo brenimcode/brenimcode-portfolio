@@ -837,8 +837,9 @@ span {
         min-width: 380px;
     }
     .home-img img {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
+        margin: 0 auto;
     }
     
 }
