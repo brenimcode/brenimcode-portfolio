@@ -807,10 +807,10 @@ span {
         grid-template-columns: repeat(1,1fr);
     }    
     .home {
-        padding-top:45px;
+        padding-top:25px;
     }
     .home-img img {
-        max-width: 85%;
+        max-width: 90%;
         height: auto;
         display: block; /* Transforma a imagem em elemento de bloco */
         margin: 0 auto; /* Centraliza horizontalmente */
@@ -845,7 +845,7 @@ span {
         min-width: 380px;
     }
     .home-img img {
-        max-width: 75%;
+        max-width: 85%;
         height: auto;
         display: block; /* Transforma a imagem em elemento de bloco */
         margin: 0 auto; /* Centraliza horizontalmente */
