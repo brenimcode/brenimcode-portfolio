@@ -835,7 +835,7 @@ span {
         min-width: 380px;
     }
     .home-img img {
-        max-width: 85%;
+        max-width: 70%;
         height: auto;
         display: block; /* Transforma a imagem em elemento de bloco */
         margin: 0 auto; /* Centraliza horizontalmente */
@@ -844,8 +844,7 @@ span {
         padding-bottom: 27px;
         padding-top: 27px;
     }
-    .home {
-        padding-top: 15px;
+    .home {
         margin-top: 10px;
     }
     
