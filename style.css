@@ -844,14 +844,13 @@ span {
         padding-bottom: 27px;
         padding-top: 27px;
     }
-    .home {
+    .home {
+
         margin-top: 10px;
     }
     
     
 }
-
-/* Portfolio/ work */
 .work-section {
     background-color: var(--second-bg-color);
     color: black;
@@ -946,6 +945,8 @@ span {
         max-width: 100%;
     }
 }
+
+
 
 /* Skills Section */
 
