@@ -341,7 +341,6 @@ span {
 
 .education {
     padding: 100px 15px;
-    background: var(--second-bg-color);
 }
 
 .education h2 {
@@ -447,7 +446,6 @@ span {
 /*--  Services -- */
 
 .services {
-    background-color: var(--bg-color);
     color: black;
 }
 
@@ -587,7 +585,6 @@ span {
 
 /* contact */
 .contact {
-    background-color: var(--bg-color);
 }
 
 .contact h2 {
@@ -1055,3 +1052,258 @@ span {
     }
 }
 
+
+
+/* MY PROJECTS */
+
+/* My Projects Section - Exportable with no conflicts */
+.my-projects-section {
+    padding: 80px 0;
+    min-height: 100vh;
+    color: #e2e8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.my-projects-section span {
+    text-shadow: 0 0 10px var(--main-color);
+}
+
+.my-projects-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    text-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+.my-projects-subtitle {
+    font-size: 1.25rem;
+    color: #94a3b8;
+    margin-bottom: 2rem;
+}
+
+.my-projects-filter-container {
+    margin-bottom: 3rem;
+}
+
+.my-projects-filter-btn {
+    background: rgba(30, 41, 59, 0.8);
+    border: 2px solid rgba(59, 130, 246, 0.3);
+    color: #e2e8f0;
+    padding: 12px 24px;
+    margin: 0 8px 8px 0;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+.my-projects-filter-btn:hover {
+    background: rgba(59, 130, 246, 0.2);
+    border-color: var(--main-color);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+}
+
+.my-projects-filter-btn.active {
+    background: linear-gradient(135deg, var(--main-color), #1d4ed8);
+    border-color: var(--main-color);
+    color: #ffffff;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+}
+
+.my-projects-filter-count {
+    background: rgba(255, 255, 255, 0.033);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-left: 8px;
+    color: #fff;
+}
+
+.my-projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.my-projects-item {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    display: none;
+}
+
+.my-projects-item.show {
+    opacity: 1;
+    display: block;
+    transform: translateY(0);
+}
+
+.my-projects-card {
+    background: rgba(30, 41, 59, 0.4);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(10px);
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.my-projects-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(59, 130, 246, 0.2);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.my-projects-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.my-projects-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.my-projects-card:hover .my-projects-image img {
+    transform: scale(1.1);
+}
+
+.my-projects-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.8), rgba(29, 78, 216, 0.8));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.my-projects-card:hover .my-projects-overlay {
+    opacity: 1;
+}
+
+.my-projects-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.my-projects-btn-demo,
+.my-projects-btn-source {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.my-projects-btn-demo:hover,
+.my-projects-btn-source:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.my-projects-content {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-projects-card-title {
+    color: var(--main-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+}
+
+.my-projects-description {
+    color: #94a3b8;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.my-projects-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: auto;
+}
+
+.my-projects-tag {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(29, 78, 216, 0.2));
+    color: #60a5fa;
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    transition: all 0.3s ease;
+}
+
+.my-projects-tag:hover {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.3), rgba(29, 78, 216, 0.3));
+    color: #93c5fd;
+    transform: translateY(-1px);
+}
+
+.my-projects-empty-state {
+    padding: 4rem 2rem;
+    color: #64748b;
+}
+
+.my-projects-empty-state i {
+    font-size: 4rem;
+    opacity: 0.5;
+}
+
+.my-projects-empty-state h4 {
+    margin-bottom: 1rem;
+    color: #94a3b8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .my-projects-title {
+        font-size: 2rem;
+    }
+    
+    .my-projects-grid {
+        grid-template-columns: repeat(1,1fr);
+        gap: 1.5rem;
+    }
+    
+    .my-projects-filter-btn {
+        padding: 10px 16px;
+        margin: 0 4px 8px 0;
+        font-size: 0.9rem;
+    }
+}
